@@ -93,12 +93,12 @@ h1 {
   flex-flow: column wrap;
   width: 40%;
   font-size: 1rem;
-  opacity: 75%;
+  /* opacity: 75%; */
 }
 
 input {
   border: 1px solid rgb(77, 77, 77, 0.4);
-  border-radius: 3px;
+  border-radius: 8px;
   padding: 10px;
   font-size: 1rem;
 }
