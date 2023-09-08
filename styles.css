@@ -1,0 +1,49 @@
+@font-face {
+  font-family: norse;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container,
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* left */
+.picture {
+  background-image: url(./images/leaf.jpg);
+  background-size: cover;
+  width: 33vw;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 22vh;
+  gap: 1vw;
+  position: relative;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: norse;
+  color: white;
+  font-size: 6em;
+}
+
+.odin-img {
+  height: 12vh;
+}
